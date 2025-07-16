@@ -12,21 +12,36 @@ A Django RESTful backend for managing travel listings, bookings, and reviews.
 
 ## 📁 Project Structure
 
-alx_travel_app_0x00/
-├── alx_travel_app/
-│ ├── settings.py
-│ ├── urls.py
-│ └── ...
-├── listings/
-│ ├── models.py
-│ ├── serializers.py
-│ ├── views.py
-│ ├── urls.py
-│ └── management/
-│ └── commands/
-│ └── seed.py
-├── manage.py
-└── README.md
+.
+└── alx_travel_app
+    ├── README.md
+    ├── alx_travel_app
+    │   ├── __init__.py
+    │   ├── __pycache__
+    │   ├── asgi.py
+    │   ├── requirements.txt
+    │   ├── settings.py
+    │   ├── urls.py
+    │   └── wsgi.py
+    ├── listings
+    │   ├── __init__.py
+    │   ├── __pycache__
+    │   ├── admin.py
+    │   ├── apps.py
+    │   ├── management
+    │   ├── migrations
+    │   ├── models.py
+    │   ├── serializers.py
+    │   ├── tests.py
+    │   ├── urls.py
+    │   └── views.py
+    ├── manage.py
+    └── venv
+        ├── bin
+        ├── include
+        ├── lib
+        ├── lib64 -> lib
+        └── pyvenv.cfg
 
 
 ---
